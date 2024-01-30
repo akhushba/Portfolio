@@ -92,7 +92,7 @@ span.navbar-text {
     position: relative;
     background-color: aliceblue;
   }
-  .skills h2, .experience h2, .projects h2 {
+  .skills h2, .experience h2, .projects h2, .contact-me h2 {
       font-size: 45px;
       font-weight: 700;
     text-align: center;
@@ -173,4 +173,25 @@ span.navbar-text {
 
 .experience .row {
   margin-top: calc(0.5*var(--bs-gutter-x));
+}
+
+.contact-me .formSection {
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin: 0 24rem;
+  padding: 2rem 0;
+  border-radius: 2rem;
+}
+
+section.contact-me {
+  padding-bottom: 4rem;
+}
+
+footer{
+  height: 2rem;
+  background-color: rgb(171, 201, 231);
+  text-align: center;
+  font-family:  var(--bs-body-font-family), serif;
+  color: #0f2b43;
 }

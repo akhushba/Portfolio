@@ -5,7 +5,7 @@ import { useState } from 'react';
 function Navbar () {
 
     const [activeItem, setActiveItem] = useState(-1);
-    let sections = ['Skills', 'Experience', 'Projects'];
+    let sections = ['Skills', 'Experience', 'Projects', 'Connect'];
     
     return (
         <>
